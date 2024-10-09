@@ -1,10 +1,9 @@
-import ConditionComponent from "./components/ConditionComponent";
-import Fruits from "./components/Fruits";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <Fruits />
+      <Counter />
     </div>
   );
 }

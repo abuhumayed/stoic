@@ -2,27 +2,32 @@ const data = [
     {
       name: "Apple",
       price: 10,
-      emoji: "🍎",
+        emoji: "🍎",
+      soldout: true,
     },
     {
       name: "Mango",
       price: 20,
-      emoji: "🥭",
+        emoji: "🥭",
+        soldout: false,
     },
     {
       name: "Banana",
       price: 6,
-      emoji: "🍌",
+        emoji: "🍌",
+        soldout: false,
     },
     {
       name: "Orange",
       price: 3,
-      emoji: "🟠",
+        emoji: "🟠",
+        soldout: true,
     },
     {
       name: "Pineapple",
       price: 12,
-      emoji: "🍍",
+        emoji: "🍍",
+        soldout: true,
     },
 ];
   

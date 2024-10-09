@@ -1,14 +1,11 @@
-const Fruit = ({ name, emoji, price }) => {
+const Fruit = ({ name, emoji, price, soldout }) => {
   return (
     <>
       {/* {emoji} {name} {price} */}
-      {price > 6 ? (
-        <li>
-          {emoji} {name} {price}
-        </li>
-      ) : (
-        ""
-      )}
+
+      <li>
+        {emoji} {name} {price} {soldout ? "sold out" : ""}
+      </li>
     </>
   );
 };
